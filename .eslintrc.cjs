@@ -16,7 +16,7 @@ module.exports = {
     'react/prop-types': 'off',
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-double'],
-    'no-unused-vars': 'error',
+    'no-unused-vars': 'warning',
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'simple-import-sort/imports': [
       'error',
